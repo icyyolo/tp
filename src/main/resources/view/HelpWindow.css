@@ -1,3 +1,57 @@
+.help-root {
+    -fx-background-color: #282A36
+    -fx-padding: 0
+}
+
+.help-header {
+    -fx-background-color: #282A36;
+    -fx-padding: 24 24 18 24;
+    -fx-border-color: transparent transparent #4d4d4d transparent;
+    -fx-border-width: 0 0 1 0;
+}
+
+.help-eyebrow {
+    -fx-font-family: "Consolas", "Menlo", "SF Mono", monospace;
+    -fx-font-size: 10px;
+    -fx-text-fill: #50c0e8;
+    -fx-letter-spacing: 0.12em;
+}
+
+.help-title-normal {
+    -fx-font-family: "Segoe UI Light";
+    -fx-font-size: 24px;
+    -fx-fill: #ffffff;
+}
+
+.help-title-bold {
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-font-size: 24px;
+    -fx-fill: #50c0e8;
+}
+
+.help-url-button {
+    -fx-background-color: transparent;
+    -fx-border-color: #3e7b91;
+    -fx-border-width: 1;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+    -fx-text-fill: #50c0e8;
+    -fx-font-family: "Consolas", "Menlo", "SF Mono", monospace;
+    -fx-font-size: 10px;
+    -fx-padding: 7 14 7 14;
+    -fx-cursor: hand;
+}
+
+.help-url-button:hover {
+    -fx-background-color: rgba(62, 123, 145, 0.2);
+    -fx-border-color: #50c0e8;
+    -fx-effect: dropshadow(gaussian, rgba(62,123,145,0.4), 10, 0, 0, 0);
+}
+
+.help-url-button:pressed {
+    -fx-background-color: rgba(62, 123, 145, 0.35);
+}
+
 #copyButton, #helpMessage {
     -fx-text-fill: white;
 }
